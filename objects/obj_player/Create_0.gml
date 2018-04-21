@@ -13,5 +13,6 @@ y_max = 270;
 
 //inital state
 state = "walking";
+stamina = 100;
 
-
+debug = false;

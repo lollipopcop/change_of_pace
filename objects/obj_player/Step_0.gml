@@ -16,9 +16,9 @@ if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
 	y_move = 1;	
 }
 
-if(keyboard_check(vk_space)){
+if(keyboard_check(vk_space) && state != "winded"){
 	state = "walking_faster";
-} else {
+} else if (state != "winded"){
 	state = "walking";	
 }
 
@@ -28,31 +28,62 @@ if(keyboard_check(vk_space)){
 
 //change speed based on current state
 if ( state == "winded" ) {
+	image_speed = 0;
+	image_index = 0;
 	spd = 0;	
+
+	stamina += .75;
+	if (stamina >= 100) {
+		stamina = 100;	
+	}
 }
 
 if ( state == "walking" ) {
+	image_speed = 1;
 	spd = .8;	
+	
+	stamina += .25;
+	if ( stamina >= 100 ) {
+		stamina = 100;	
+	}
 }
 
 if ( state == "walking_faster" ) {
-	spd = 1.5;	
+	image_speed = 1.5
+	spd = 1.5;
+	stamina -= .5;
+	if( stamina < 0 ){
+		stamina = 0;
+	}
 }
 
 #endregion
 
 #region //movement
 
-//do the movement
-
 y_move = y_move * spd;
 
+#region keep player in bounds
 //if the character is going to move above or below the bounds; stop
 if ( (y + y_move) < y_min ){
 	y_move = y - y_min;
 } else if ((y + y_move) > y_max) {
 	y_move = y_max - y;	
 }
+
+//if the character is going to move too far forward they become winded
+if( (x + spd) > ((obj_camera.x + 240) - (sprite_width/2))){
+	state = "winded";
+	alarm[0] = 60;
+}
+
+//if the player's stamina is 0 change state to winded
+if (stamina <= 0){
+	state = "winded";
+	alarm[0] = 60;
+}
+
+#endregion
 
 y = y + y_move;
 
