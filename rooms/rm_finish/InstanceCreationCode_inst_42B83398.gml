@@ -1,2 +1,2 @@
-next_room = rm_test;
+next_room = rm_level_1;
 button_text = "Next Level";
