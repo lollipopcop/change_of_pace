@@ -2,7 +2,7 @@
     "id": "bbe43c2d-7105-4f44-b782-93b81e87c5fd",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_stamina",
+    "name": "spr_stamina_bar",
     "For3D": false,
     "HTile": false,
     "VTile": false,
