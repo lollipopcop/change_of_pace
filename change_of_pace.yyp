@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "446914fc-f4b0-4d53-9958-deef6759d2e0",
+            "Value": {
+                "id": "0cfb5e70-70b2-40d3-9ee4-99a015020bc1",
+                "resourcePath": "rooms\\rm_lose\\rm_lose.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4511be02-09fc-4528-b494-cbe4478a0caa",
             "Value": {
                 "id": "2c58f4bc-3972-4d71-9348-90b02bd1beda",
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "cb09c518-dd7f-459b-ae02-d7ae4ffbcf9d",
                 "resourcePath": "views\\78ce289c-47c6-4381-9352-78db83a06bc2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e2fd28d-eae7-414c-ae70-ea95569954a8",
+            "Value": {
+                "id": "e6bbf2de-ed09-4c3a-b30a-d3be0fb5e004",
+                "resourcePath": "views\\5c2af08a-412c-4902-8b8e-e3d8f2d978ae-room.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "b99afb1f-a3a4-4102-be5b-d1b77bb33a35",
+            "Value": {
+                "id": "8bb2fdbd-4bf2-4655-9f40-87e45f565365",
+                "resourcePath": "views\\ceefe1fd-4366-414d-a01b-1d778110ddbf-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "bbe43c2d-7105-4f44-b782-93b81e87c5fd",
             "Value": {
                 "id": "a93c1e0a-d208-407a-9793-cc7e7cfae1f4",
@@ -405,10 +429,19 @@
                 "resourcePath": "views\\f1e8e8a3-3b62-48c6-963d-45d3846c7fbe.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f33da4fb-99af-48e5-846e-ad0da678c2a6",
+            "Value": {
+                "id": "35a228e9-7795-41f7-8b4e-c4cd2a190071",
+                "resourcePath": "views\\92614a51-a6c2-448d-a832-ef244f3386b2-room.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
-        "17d6825f-e8cd-47df-a380-4a4ee7744263"
+        "17d6825f-e8cd-47df-a380-4a4ee7744263",
+        "5686b065-09cb-458c-bf47-bc725146ad33"
     ],
     "tutorial": ""
 }

@@ -27,6 +27,7 @@ if ( state == "walking" ) {
 }
 
 if ( state == "walking_faster" ) {
+	sprite_index = walking_sprite;
 	image_speed = 1.5
 	spd = 1.5;
 	stamina -= .5;
@@ -69,10 +70,19 @@ x = x + spd;
 
 #endregion
 
+#region boost randomly
+
+if ( alarm[0] == -1 && alarm[1] == -1 && alarm[2] == -1) {
+	
+	alarm[2] = random_range(100, 200);
+}
+
+#endregion
+
 #region finish the race
 
 if ( x >= room_width - 60 ){
-	room_goto(rm_finish);	
+	room_goto(rm_lose);	
 }
 
 #endregion
