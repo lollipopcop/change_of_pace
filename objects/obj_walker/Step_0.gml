@@ -1,34 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#region check inputs
-
-//determine if we are moving in the y plane
 var y_move = 0;
-
-//check to see if we should move up
-if(keyboard_check(ord("W")) || keyboard_check(vk_up)){
-	y_move = -1;	
-}
-
-//check to see if we should move down
-if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
-	y_move = 1;	
-}
-
-if(keyboard_check(vk_space) && state != "winded"){
-	state = "walking_faster";
-} else if (state != "winded"){
-	state = "walking";	
-}
-
-#endregion
 
 #region check state and change speed
 
 //change speed based on current state
 if ( state == "winded" ) {
-	sprite_index = spr_player_winded;
+	sprite_index = winded_sprite;
 	spd = 0;	
 
 	stamina += .75;
@@ -38,7 +17,7 @@ if ( state == "winded" ) {
 }
 
 if ( state == "walking" ) {
-	sprite_index = spr_player;
+	sprite_index = walking_sprite;
 	spd = .8;	
 	
 	stamina += .25;

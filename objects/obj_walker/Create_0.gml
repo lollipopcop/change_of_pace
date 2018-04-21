@@ -16,3 +16,7 @@ state = "walking";
 stamina = 100;
 
 debug = false;
+
+//setup sprites to use
+walking_sprite = -1;
+winded_sprite = -1;
