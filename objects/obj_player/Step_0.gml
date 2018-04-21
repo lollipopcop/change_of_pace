@@ -48,6 +48,7 @@ if ( state == "walking" ) {
 }
 
 if ( state == "walking_faster" ) {
+	sprite_index = walking_sprite;
 	image_speed = 1.5
 	spd = 1.5;
 	stamina -= .5;
