@@ -28,7 +28,7 @@ if(keyboard_check(vk_space) && state != "winded"){
 
 //change speed based on current state
 if ( state == "winded" ) {
-	sprite_index = spr_player_winded;
+	sprite_index = winded_sprite;
 	spd = 0;	
 
 	stamina += .75;
@@ -38,7 +38,7 @@ if ( state == "winded" ) {
 }
 
 if ( state == "walking" ) {
-	sprite_index = spr_player;
+	sprite_index = walking_sprite;
 	spd = .8;	
 	
 	stamina += .25;

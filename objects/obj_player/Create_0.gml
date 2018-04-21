@@ -1,18 +1,6 @@
 /// @description Insert description here
-// You can write your code in this editor
+// You can write your code in this edit
 
-//set up initial speed
-
-//how fast the character moves (or the room moves against the player)
-spd = .8;
-
-//lowest point
-y_min = 200;
-//highest point
-y_max = 264;
-
-//inital state
-state = "walking";
-stamina = 100;
-
-debug = false;
+event_inherited();
+walking_sprite = spr_player;
+winded_sprite = spr_player_winded;
