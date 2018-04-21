@@ -16,4 +16,6 @@ camera_set_proj_mat(camera, projection_matrix);
 
 view_camera[0] = camera;
 
+state = "room_move";
+
 #endregion

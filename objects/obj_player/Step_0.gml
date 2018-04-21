@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#region //check inputs
+#region check inputs
 
 //determine if we are moving in the y plane
 var y_move = 0;
@@ -24,7 +24,7 @@ if(keyboard_check(vk_space) && state != "winded"){
 
 #endregion
 
-#region //check state and change speed
+#region check state and change speed
 
 //change speed based on current state
 if ( state == "winded" ) {
@@ -59,7 +59,7 @@ if ( state == "walking_faster" ) {
 
 #endregion
 
-#region //movement
+#region movement
 
 y_move = y_move * spd;
 
@@ -88,5 +88,13 @@ if (stamina <= 0){
 y = y + y_move;
 
 x = x + spd;
+
+#endregion
+
+#region finish the race
+
+if ( x >= room_width - 60 ){
+	room_goto(rm_finish);	
+}
 
 #endregion
