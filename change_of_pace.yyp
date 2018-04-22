@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "635681ff-e9b5-427a-bbed-547f2f462a03",
+            "Value": {
+                "id": "f1cc468c-47f5-4fe5-9f92-94766a671b8d",
+                "resourcePath": "objects\\obj_bike_rider\\obj_bike_rider.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "67591817-fdad-44fd-a5da-ce75ff5fd520",
             "Value": {
                 "id": "03d5028d-8997-4c47-ae7b-622c71029db6",
