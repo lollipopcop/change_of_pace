@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "60bd3b74-2367-41ed-9028-8c5ab31fb33f",
+            "Value": {
+                "id": "0b346134-5a50-4972-84ca-cd12903803e8",
+                "resourcePath": "sprites\\spr_walker_grannie\\spr_walker_grannie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "635681ff-e9b5-427a-bbed-547f2f462a03",
             "Value": {
                 "id": "f1cc468c-47f5-4fe5-9f92-94766a671b8d",
@@ -316,6 +324,14 @@
                 "id": "1afaeca4-b6c1-41f9-aa07-100338c89975",
                 "resourcePath": "views\\703e1335-01fa-4d3a-ba93-521482a3c0d8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "76b55d40-26a0-48e9-b3e8-429b6a3b4d92",
+            "Value": {
+                "id": "18780b2a-ee8d-4204-ae26-587dedd56d18",
+                "resourcePath": "sprites\\spr_walker_woman\\spr_walker_woman.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -515,6 +531,14 @@
             "Value": {
                 "id": "a93c1e0a-d208-407a-9793-cc7e7cfae1f4",
                 "resourcePath": "sprites\\spr_stamina_bar\\spr_stamina_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc188238-733b-49f8-8f8e-26879e16bf51",
+            "Value": {
+                "id": "ba075422-407f-4a92-8e0a-733c1bbbf099",
+                "resourcePath": "sprites\\spr_walker_man\\spr_walker_man.yy",
                 "resourceType": "GMSprite"
             }
         },
