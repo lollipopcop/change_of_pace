@@ -3,4 +3,5 @@
 
 event_inherited();
 next_room = -1;
-button_text = "Next Room";
+button_text = "sample";
+

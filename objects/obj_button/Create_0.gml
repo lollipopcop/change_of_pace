@@ -4,4 +4,4 @@
 image_index = 0;
 image_speed = 0;
 state = "mouse_exited"
-button_text = "";
+button_text = "Didn't Work";

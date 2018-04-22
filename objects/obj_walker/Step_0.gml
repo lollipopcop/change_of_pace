@@ -82,7 +82,7 @@ if ( alarm[0] == -1 && alarm[1] == -1 && alarm[2] == -1) {
 #region finish the race
 
 if ( x >= room_width - 60 ){
-	room_goto(rm_lose);	
+	room_goto(rm_finish);	
 }
 
 #endregion

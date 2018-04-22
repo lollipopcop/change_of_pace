@@ -107,6 +107,7 @@ x = x + spd;
 #region finish the race
 
 if ( x >= room_width - 60 ){
+	scr_set_beat_level();
 	room_goto(rm_finish);	
 }
 
