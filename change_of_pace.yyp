@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "dcf33f5c-9f8c-44f0-a965-4dbba4a5d5ef",
+            "Value": {
+                "id": "829b42a2-7477-46e9-bf15-2aac155c03ac",
+                "resourcePath": "scripts\\scr_setup_dialog_array\\scr_setup_dialog_array.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df76cab8-05aa-48d9-9bae-1341de8ab12c",
             "Value": {
                 "id": "1a168faa-6ee6-4562-9abc-f79052665712",

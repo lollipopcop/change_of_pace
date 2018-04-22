@@ -20,3 +20,12 @@ debug = false;
 //setup sprites to use
 walking_sprite = -1;
 winded_sprite = -1;
+
+dialog_state = "quiet";
+dialog_chosen = false;
+dialog = "";
+
+dialog_ahead[0, 0] = "unintialized";
+dialog_ahead[0, 1] = false;
+dialog_behind[0, 0] = "uninitialized";
+dialog_ahead[0, 1] = false;

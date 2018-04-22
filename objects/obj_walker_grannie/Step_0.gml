@@ -38,7 +38,15 @@ if ( state == "walking_faster" ) {
 
 #region grannie AI
 
-x = x + spd;
+x += spd;
+
+#endregion
+
+#region dialog
+
+if ( alarm[10] == -1 ) {
+	alarm[10] = random_range(400, 600);	
+}
 
 #endregion
 

@@ -79,6 +79,15 @@ if ( alarm[0] == -1 && alarm[1] == -1 && alarm[2] == -1) {
 
 #endregion
 
+#region dialog
+
+if ( alarm[10] == -1 ) {
+	alarm[10] = random_range(400, 600);	
+}
+
+#endregion
+
+
 #region finish the race
 
 if ( x >= room_width - 60 ){
