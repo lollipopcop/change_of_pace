@@ -16,7 +16,7 @@ if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
 	y_move = 1;	
 }
 
-if(keyboard_check(vk_space) && state != "winded"){
+if(keyboard_check(vk_space) && state != "winded" && state != "tripped"){
 	state = "walking_faster";
 } else if (state != "winded" && state != "tripped"){
 	state = "walking";	
