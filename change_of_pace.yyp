@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "18eb709f-f433-49bd-93bb-791eab726da7",
+            "Value": {
+                "id": "46d5c08a-1708-4429-8231-178d1c8b36bc",
+                "resourcePath": "sprites\\spr_walker_woman_winded\\spr_walker_woman_winded.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f697191-d630-48d6-bfc5-dafd105c8598",
             "Value": {
                 "id": "1d1fd69c-d628-4ea7-a786-191895e3d89d",
@@ -282,7 +290,7 @@
             "Key": "635681ff-e9b5-427a-bbed-547f2f462a03",
             "Value": {
                 "id": "f1cc468c-47f5-4fe5-9f92-94766a671b8d",
-                "resourcePath": "objects\\obj_bike_rider\\obj_bike_rider.yy",
+                "resourcePath": "objects\\obj_obstacle_bike_rider\\obj_obstacle_bike_rider.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -300,14 +308,6 @@
                 "id": "887b444f-8f50-4072-a7cd-cbc177035f2d",
                 "resourcePath": "scripts\\scr_next_level_text\\scr_next_level_text.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "6829b921-194b-4d9a-b994-a689f66484f7",
-            "Value": {
-                "id": "dc5c5ffa-ad63-476b-9def-63d6a665f83b",
-                "resourcePath": "sprites\\sprite24\\sprite24.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -332,6 +332,14 @@
                 "id": "1afaeca4-b6c1-41f9-aa07-100338c89975",
                 "resourcePath": "views\\703e1335-01fa-4d3a-ba93-521482a3c0d8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7413cd1d-23df-4750-bfc7-646b1eb1ee8a",
+            "Value": {
+                "id": "077e0938-5439-477d-a5a7-f6e6c88763e5",
+                "resourcePath": "rooms\\rm_level2\\rm_level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -423,6 +431,22 @@
             }
         },
         {
+            "Key": "9cc1cca2-09f4-4429-b0c1-f3c25678dc04",
+            "Value": {
+                "id": "ce45a968-9513-4c9d-909f-9423c51389b2",
+                "resourcePath": "sprites\\spr_obstacle_bike_rider_hit\\spr_obstacle_bike_rider_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e352da7-d32b-46ca-b3ac-eafca185c9e9",
+            "Value": {
+                "id": "f3da06bb-ad45-4405-a99d-abd5277bdc44",
+                "resourcePath": "sprites\\spr_walker_man_winded\\spr_walker_man_winded.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f28e60a-d65d-4e0b-be3e-b22adead1cdd",
             "Value": {
                 "id": "e1a2467f-3da5-478e-a9a4-4e7808712003",
@@ -482,7 +506,7 @@
             "Key": "ab19d589-4652-463e-9fe7-e48f6dfee25f",
             "Value": {
                 "id": "bbff5a9d-79f7-4e83-8a52-f14457ba70b9",
-                "resourcePath": "objects\\obj_walker_nega\\obj_walker_nega.yy",
+                "resourcePath": "objects\\obj_walker_man\\obj_walker_man.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -492,14 +516,6 @@
                 "id": "9ae59b35-2825-49d0-9f4e-317831fd480a",
                 "resourcePath": "views\\ab5e0a82-25cb-406e-ad8c-9d95c182bf5d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ae0430f6-f688-458a-9ef5-df98cbba23e4",
-            "Value": {
-                "id": "97ad19b4-a41d-43ef-b4fc-7ac58a37d4c0",
-                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -532,6 +548,22 @@
                 "id": "d9453f6c-88a3-4692-ac03-ad158ae0b583",
                 "resourcePath": "views\\b4df00b7-0c32-439b-9a30-0ff7b7071daa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b92a5dab-9337-40a9-9da3-44356b6ec1dc",
+            "Value": {
+                "id": "465f65c5-ac47-4ba7-b00c-88938156d702",
+                "resourcePath": "sprites\\spr_challenger_man\\spr_challenger_man.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b95dbdf3-a794-4efd-b5dc-c8f00b26ecdc",
+            "Value": {
+                "id": "e52b6582-99dc-4c0f-9a92-a530a62c8cdd",
+                "resourcePath": "objects\\obj_walker_woman\\obj_walker_woman.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -595,6 +627,14 @@
             "Value": {
                 "id": "4868ffbe-5e51-4623-887d-d0667406cb95",
                 "resourcePath": "objects\\obj_walker\\obj_walker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca9e4605-da45-4949-a1fc-70878ad25f61",
+            "Value": {
+                "id": "94efcab4-e898-41b4-bbc1-a1852c4e95d5",
+                "resourcePath": "objects\\obj_walker_grannie\\obj_walker_grannie.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -671,14 +711,6 @@
             }
         },
         {
-            "Key": "dc5bcb2c-e33e-403f-af6c-e1da000a903f",
-            "Value": {
-                "id": "2ae642d2-39ed-4d47-a75a-b6bd9ae349af",
-                "resourcePath": "rooms\\rm_level2\\rm_level2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "df76cab8-05aa-48d9-9bae-1341de8ab12c",
             "Value": {
                 "id": "1a168faa-6ee6-4562-9abc-f79052665712",
@@ -700,6 +732,14 @@
                 "id": "b3832cd9-8822-4654-9977-699cd74b7129",
                 "resourcePath": "sprites\\spr_stamina_border\\spr_stamina_border.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb3d5373-ea95-4a89-b09b-6bd790ee7d30",
+            "Value": {
+                "id": "7bea17f6-806a-4127-bcb3-522a89d17717",
+                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -732,6 +772,22 @@
                 "id": "35a228e9-7795-41f7-8b4e-c4cd2a190071",
                 "resourcePath": "views\\92614a51-a6c2-448d-a832-ef244f3386b2-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fbde72be-a25e-4094-a198-6ca4927c6d6c",
+            "Value": {
+                "id": "541b3500-14ed-4e4a-9f16-f89aa4f96b41",
+                "resourcePath": "sprites\\spr_obstacle_bike_rider\\spr_obstacle_bike_rider.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fcb361b1-8e0b-4ae8-9c83-633e84738251",
+            "Value": {
+                "id": "2c547113-4599-463a-a1c5-72a593f2023d",
+                "resourcePath": "sprites\\spr_challenger_woman\\spr_challenger_woman.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
