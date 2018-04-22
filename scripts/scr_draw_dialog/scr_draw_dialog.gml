@@ -19,4 +19,4 @@ draw_sprite_ext(spr_text_bubble_middle, 0, dialog_x + bubble_width, dialog_y, st
 draw_sprite(spr_text_bubble_end, 0, dialog_x + ( bubble_width + ( bubble_width * stretch ) ), dialog_y);
 draw_set_color(c_black);
 draw_set_font(font_dialog);
-draw_text(dialog_x + dialog_offset, dialog_y + 10, dialog);
+draw_text(dialog_x + dialog_offset, dialog_y + 9, dialog);
