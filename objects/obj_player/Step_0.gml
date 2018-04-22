@@ -18,7 +18,7 @@ if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
 
 if(keyboard_check(vk_space) && state != "winded"){
 	state = "walking_faster";
-} else if (state != "winded"){
+} else if (state != "winded" && state != "tripped"){
 	state = "walking";	
 }
 
@@ -49,11 +49,24 @@ if ( state == "walking" ) {
 
 if ( state == "walking_faster" ) {
 	sprite_index = walking_sprite;
-	image_speed = 1.5
+	image_speed = 1.5;
 	spd = 1.5;
 	stamina -= .5;
+	
 	if( stamina < 0 ){
 		stamina = 0;
+	}
+}
+
+if ( state == "tripped" ) {
+	sprite_index = walking_sprite;
+	image_speed = .5;
+	
+	spd = .2;
+	stamina += .1;
+	
+	if ( stamina >= 100 ) {
+		stamina = 100;	
 	}
 }
 

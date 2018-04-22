@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "40427277-8900-4448-ac43-9e5ae7d9339b",
+            "Value": {
+                "id": "9346d455-b668-4ea2-b5f1-54687a108f65",
+                "resourcePath": "views\\40427277-8900-4448-ac43-9e5ae7d9339b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4069ff7c-4a4e-48ef-973d-4301a3056093",
             "Value": {
                 "id": "4cfc337d-a20c-4247-9509-c173280c46b1",
@@ -196,6 +204,14 @@
                 "id": "34ed03a1-d59d-4147-a8f8-3bb66cb7d9f6",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5bdafc4f-24c5-4772-bbca-301800e2ffa6",
+            "Value": {
+                "id": "d5cc51e1-e4df-4f78-bce2-43a67dcd7440",
+                "resourcePath": "sprites\\spr_obstacle_bike\\spr_obstacle_bike.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "aa4d9b2d-0689-413f-9c10-b3c3cd2bb43f",
+            "Value": {
+                "id": "2b397dcc-9ac0-4b39-a825-ca7acb40391b",
+                "resourcePath": "objects\\obj_obstacle\\obj_obstacle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ab19d589-4652-463e-9fe7-e48f6dfee25f",
             "Value": {
                 "id": "bbff5a9d-79f7-4e83-8a52-f14457ba70b9",
@@ -487,11 +511,27 @@
             }
         },
         {
+            "Key": "dbe17815-eb39-410b-8197-a3c5e6a2de7e",
+            "Value": {
+                "id": "17105da0-962d-4edd-9b9b-76391b96302d",
+                "resourcePath": "sprites\\spr_bg_mountain\\spr_bg_mountain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df76cab8-05aa-48d9-9bae-1341de8ab12c",
             "Value": {
                 "id": "1a168faa-6ee6-4562-9abc-f79052665712",
                 "resourcePath": "sprites\\spr_stamina_background\\spr_stamina_background.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4fe5405-cfdd-49b8-a922-b303fc06060b",
+            "Value": {
+                "id": "1982f297-83ee-4f94-8308-05c70097af74",
+                "resourcePath": "views\\e4fe5405-cfdd-49b8-a922-b303fc06060b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -508,6 +548,14 @@
                 "id": "1c3abf4e-4358-4f49-82c4-f36ba4e50e2f",
                 "resourcePath": "rooms\\rm_test\\rm_test.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ef00a124-8cdd-4892-bf69-9d65a7b6c3ec",
+            "Value": {
+                "id": "44b1279f-2b15-4654-8cf3-71b2ec1ae143",
+                "resourcePath": "objects\\obj_obstacle_bike\\obj_obstacle_bike.yy",
+                "resourceType": "GMObject"
             }
         },
         {
