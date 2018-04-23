@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2f0894ef-8448-4dbe-8cf3-027b5c7194d7",
+            "Value": {
+                "id": "99019546-b0af-4db6-a884-915d320cf5f8",
+                "resourcePath": "objects\\obj_audio_controller\\obj_audio_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30b2fa0e-91d0-4f52-93b8-747b3e8aefa3",
             "Value": {
                 "id": "4022d396-d8cc-4f51-98cd-8ac5d265ea19",
@@ -172,6 +180,14 @@
                 "id": "5e009b70-248d-42f1-b1c6-6837cfb51f7d",
                 "resourcePath": "views\\39c42647-fbc6-4fce-a967-c33acea8cbfb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3c58f180-be2e-4b77-8639-3cf404d4177f",
+            "Value": {
+                "id": "3e97552d-d528-4a21-a3f7-bbf6dbd41e29",
+                "resourcePath": "sounds\\snd_music_intro\\snd_music_intro.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -444,6 +460,14 @@
                 "id": "4b410210-5f02-4b83-b23f-5fd813b7bd88",
                 "resourcePath": "views\\8a629a98-2be3-4335-9221-2862da489b70.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e7f34fa-025b-446f-9a06-90cad6d6e4bf",
+            "Value": {
+                "id": "fd6e4bfe-8ca1-4a24-95d2-f0e73601e3f4",
+                "resourcePath": "sounds\\snd_music_menu\\snd_music_menu.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -780,6 +804,14 @@
                 "id": "1982f297-83ee-4f94-8308-05c70097af74",
                 "resourcePath": "views\\e4fe5405-cfdd-49b8-a922-b303fc06060b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5e3fbfc-33f6-48b8-9002-c438e18aa7bd",
+            "Value": {
+                "id": "5d40f211-43fd-4950-8304-303085e2114f",
+                "resourcePath": "sounds\\snd_music_level\\snd_music_level.yy",
+                "resourceType": "GMSound"
             }
         },
         {
