@@ -1,4 +1,4 @@
 /// @description walk time
 
 state = "walking_faster";
-alarm[1] = random_range(80, 180);
+alarm[1] = random_range(80, 160);
