@@ -106,6 +106,11 @@ x = x + spd;
 
 #region finish the race
 
+//if you fall out of the room go to lose screen
+if (x < (obj_camera.x - 260)){
+	room_goto(rm_lose);	
+}
+
 if ( x >= room_width - 60 ){
 	scr_set_beat_level();
 	room_goto(obj_room_controller.next_room);	
