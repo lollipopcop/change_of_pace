@@ -108,7 +108,7 @@ x = x + spd;
 
 if ( x >= room_width - 60 ){
 	scr_set_beat_level();
-	room_goto(rm_finish);	
+	room_goto(obj_room_controller.next_room);	
 }
 
 #endregion
