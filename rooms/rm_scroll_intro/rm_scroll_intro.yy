@@ -2,7 +2,7 @@
 {
     "name": "rm_scroll_intro",
     "id": "bbc34485-f24f-485d-a784-c6eef4433197",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

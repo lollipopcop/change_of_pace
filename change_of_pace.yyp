@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "6f5d7535-a7cc-4760-92bd-cbc8494f986d",
+            "Value": {
+                "id": "fcfbd68f-6c86-49aa-b1a5-8e538680d8f7",
+                "resourcePath": "sprites\\spr_river_giant_games\\spr_river_giant_games.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "703e1335-01fa-4d3a-ba93-521482a3c0d8",
             "Value": {
                 "id": "1afaeca4-b6c1-41f9-aa07-100338c89975",
@@ -380,6 +388,22 @@
                 "id": "077e0938-5439-477d-a5a7-f6e6c88763e5",
                 "resourcePath": "rooms\\rm_level2\\rm_level2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "74f94fac-9e07-4a3f-b6ca-3cc9126160ea",
+            "Value": {
+                "id": "f5267738-c55c-453c-9687-af25c0a90421",
+                "resourcePath": "views\\74f94fac-9e07-4a3f-b6ca-3cc9126160ea.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "0b780a0a-c118-44e0-9486-ae876f8ab2c0",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
             }
         },
         {
@@ -427,6 +451,14 @@
             "Value": {
                 "id": "e6bbf2de-ed09-4c3a-b30a-d3be0fb5e004",
                 "resourcePath": "views\\5c2af08a-412c-4902-8b8e-e3d8f2d978ae-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8059e765-2aaf-44cd-9087-163d05f345bb",
+            "Value": {
+                "id": "4703407e-daee-4c7a-a963-849cfa890777",
+                "resourcePath": "views\\8059e765-2aaf-44cd-9087-163d05f345bb.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -559,6 +591,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "5dd036e8-5b85-4020-9847-c878e78a15bb",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "aa4d9b2d-0689-413f-9c10-b3c3cd2bb43f",
             "Value": {
                 "id": "2b397dcc-9ac0-4b39-a825-ca7acb40391b",
@@ -668,6 +708,14 @@
                 "id": "ba075422-407f-4a92-8e0a-733c1bbbf099",
                 "resourcePath": "sprites\\spr_walker_man\\spr_walker_man.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be710a23-9c2d-44c9-a76e-feff25144e1f",
+            "Value": {
+                "id": "5b7697b1-142d-48fd-a2d1-139bcda7299c",
+                "resourcePath": "objects\\obj_river_giant_games\\obj_river_giant_games.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -868,6 +916,14 @@
                 "id": "35a228e9-7795-41f7-8b4e-c4cd2a190071",
                 "resourcePath": "views\\92614a51-a6c2-448d-a832-ef244f3386b2-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "511ee364-701a-4eca-afac-e2b984aa1cfd",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
