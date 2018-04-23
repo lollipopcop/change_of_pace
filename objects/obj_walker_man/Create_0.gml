@@ -17,5 +17,5 @@ dialog_ahead[0, 0] = "Aren't the mountains lovely.";
 dialog_ahead[0, 1] = false;
 dialog_ahead[1, 0] = "Check out that tree!";
 dialog_ahead[1, 1] = false;
-dialog_ahead[2, 0] = "Sorry that I'm going so fast.";
+dialog_ahead[2, 0] = "Sorry I'm going so fast.";
 dialog_ahead[2, 1] = false;

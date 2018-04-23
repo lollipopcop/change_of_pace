@@ -18,4 +18,8 @@ view_camera[0] = camera;
 
 state = "room_move";
 
+camera_speed = 1;
+
+title_screen = false;
+
 #endregion

@@ -10,7 +10,7 @@ if (current_room == "rm_scroll_intro") {
 }
 
 if ( current_room == "rm_start" || current_room == "rm_challenger_man" || current_room = "rm_challenger_woman" || current_room = "rm_challenger_grannie"){
-	audio_play_sound_on(music_emitter, snd_music_menu, false, 1);
+	audio_play_sound_on(music_emitter, snd_music_menu, true, 1);
 }
 
 if ( current_room == "rm_level1" || current_room == "rm_level2" || current_room = "rm_level3"){
