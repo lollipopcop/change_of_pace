@@ -9,7 +9,7 @@ spd = .8;
 //lowest point
 y_min = 222;
 //highest point
-y_max = 264;
+y_max = 266;
 
 //inital state
 state = "walking";
